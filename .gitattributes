@@ -1,0 +1,12 @@
+# Prioritize TypeScript files (NestJS uses TypeScript heavily)
+*.ts linguist-detectable=true
+
+# Treat JavaScript files (Node.js) as important
+*.js linguist-detectable=true
+
+# Include JSON files, often used for Node.js configuration or MongoDB data
+*.json linguist-detectable=true
+
+# Ignore files that shouldn't affect language stats (e.g., build files)
+dist/* linguist-vendored
+node_modules/* linguist-vendored
